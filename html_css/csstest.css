@@ -1,0 +1,68 @@
+
+/* 복합 인접 형재 선택자 */
+
+.orange + li {
+    color: forestgreen;
+}
+
+/* 복합 일반형제 선택자 (다음형제 요소 모두 */
+.orange ~ li{
+    color: red;
+}
+
+/* 가상 클래스 선택자 hover */
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: violet;
+}
+
+/* 가상 클래스 선택자 focus */
+input:focus{
+    background-color: orange;
+}
+/*가상 클래스 first-child */
+.fruits div:first-child {
+    color: red;
+}
+
+/* 가상 클래스 nth-child */
+.fruits *:nth-child(2)
+{
+    color: blue;
+}
+
+/* 가상 클래스 nth-child(2n) */
+.fruits *:nth-child(2n){
+    color: red;
+}
+
+/* 가상 클래스 nth-child(2n) */
+.fruits *:nth-child(n+2){
+    color: blue;
+}
+
+/*  부정 선택자 */
+
+.fruits *:not(span) {
+ color: plum;
+}
+
+.box::before{
+    content: "앞!!";
+}
+.box::after{
+    content: "뒤!!";
+}
+
+/* 속성 선택자 */
+[disabled]{
+    background-color :red;
+}
+
+[type=password]{
+    background-color: blue;
+}
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여백</title>
+    <style>
+        /* 여백(외부여백) */
+        .container .item{
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            /* margin: 10px; */
+            /* margin: 10px 20px 30px 40px; (위) (우) (아래)(좌) */
+            /* margin: 10px 20px 30px; (위)아래 조,우 */
+            /* margin: 10px 20px; */
+             /* margin: 10px;  (위,아래(좌,우) 동일 */
+             margin: 10px;
+             border: 1px solid red ; /*(크기,선종류,선색상)*/
+             padding: 40px; 
+             box-sizing: border-box;
+
+             border-width: 1px;
+             border-style: solid;
+             border-color: blue;
+             border-top-left-radius: 20px;
+             border-top-right-radius: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">우리나라 좋은 나라</div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    
+</body>
+</html>

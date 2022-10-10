@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <style>
+        body
+        /* {font-size: 50px;} */
+
+        span{
+            color :red
+        }
+        table{
+
+        }
+        tr{
+
+        }
+        td{
+            border: 1px solid blue;
+            padding: 10px;
+        }
+        .red{ color: red}
+        .blue{ color: blue}
+
+        #god{
+            color: orange;
+        }
+    </style>
+    
+   <script defer src="./js/main.js">
+   </script>
+</head>
+<body>
+<div data-fruitname="apple">
+     사과
+</div>
+<div data-fruitname="banana">
+    바나나
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>a</td><td>b</td><td>c</td>
+        </tr>
+        <tr>
+            <td>d</td><td>e</td><td>f</td>
+        </tr>
+        <tr>
+            <td>g</td><td>h</td><td rowspan="2">i</td>
+        </tr>
+        <tr>
+            <td colspan="3">j</td><td>k</td>
+        </tr>
+    </table>
+</div>
+
+    <div>
+        <input type="text" placeholder="이름을 입력하세요!">
+        <label>
+        <input type="checkbox" checked> 사과
+        </label>
+        <label>
+            <input type="checkbox" checked> 배
+            </label>
+    </div>
+    <div>    
+        <label>
+         <input type="radio" name="fruits" checked> 사과
+        </label>
+        <label>
+            <input type="radio" name="fruits" > 배
+            </label>
+    </div>
+
+    <div>
+        <h1>타이틀1</h1>
+        <h2>타이틀2</h2>
+        <h6>타이틀</h6>
+    </div>
+        <ul>
+            <li>사과</li>
+            <li>딸기</li>
+            <li>수박</li>
+        </ul>
+    <div>
+        <ol>
+            <li>일등</li>
+            <li>이등</li>
+            <li>삼등</li>
+        </ol>
+    </div>
+    <p>
+        <span class="blue">동해물과</span> <span class="blue">백두산</span>이 마르고 닳도록<br>
+        <span id="god" 하느님이 보우하사 <span class="red">우리나라</span> 만세
+    </p>
+   
+</body>
+</html>

@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="school.Student"><rhs name\="school.Student"/></lhs><lhs name\="array.Student"><rhs name\="array.Student"/></lhs><lhs name\="inheritance.Customer"><rhs name\="inheritance.Customer"/></lhs><lhs name\="interfaceex.Schedule"><rhs name\="interfaceex.PriorityAllcation"/></lhs><lhs name\="generic.GenericPrinter"><rhs name\="generic.GenericPrinter"/></lhs><lhs name\="collection.set.MemberHashSet"><rhs name\="collection.set.MemberHashSet"/></lhs><lhs name\="collection.set.Member"><rhs name\="collection.set.Member"/></lhs><lhs name\="collection.treeset.MemberTreeSet"><rhs name\="collection.treeset.MemberTreeSet"/></lhs><lhs name\="collection.hashmap.MemberHashMap"><rhs name\="collection.hashmap.MemberHashMap"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

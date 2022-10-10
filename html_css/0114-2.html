@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            width: 100px;
+            height: 150px;
+            background-color: blue;
+            /* overflow: visible; 그냥보여줌*/ 
+            /* overflow: hidden; 숨겨*/  
+            /* overflow: scroll; 넘치면 스크롤 자동표시*/
+            overflow: auto;
+            padding: 20px;
+        }
+        .child{
+            height: 100px;
+            width: 300px;
+            background-color: orange;
+            opacity: 0.5;
+        }
+        #sp{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            display: block;
+            opacity: 1;
+            font-size: 20px;
+            font-weight: 900; /*100~900 */
+            font-style: italic;
+            font-family: serif; /* 폰트1 폰틎2 폰트3 글꼴계열 */
+            line-height: 1.5;
+            color: blue;
+            text-align: center;
+            text-decoration: underline;
+            text-indent: 20px;/*들여쓰기 , 내어쓰기는 마이너스값넣는다*/
+             
+
+        } 
+    a{
+        /* text-decoration: none; */
+        text-decoration: line-through;
+        text-decoration: underline;
+
+    }
+    
+       
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">aaaaaaa</div>
+        <input type="text" id="name">
+    </div>
+    <span id="sp">하하하하하하하하하하핳하하하하</span>
+    
+</body>
+</html>

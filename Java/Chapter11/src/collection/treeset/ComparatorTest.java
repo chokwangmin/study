@@ -1,0 +1,34 @@
+package collection.treeset;
+
+import java.util.Comparator;
+import java.util.TreeSet;
+
+class MyCompare implements Comparator<String>{
+
+@Override
+public int compare(String o1, String o2) {
+	return o1.compareTo(o2) * -1;
+	
+	}
+
+}
+
+public class ComparatorTest {
+
+	public static void main(String[] args) {
+
+		TreeSet<String> treeSet = new TreeSet<String>(new MyCompare());
+		treeSet.add("바");
+		treeSet.add("나");
+		treeSet.add("가");
+		treeSet.add("라");
+		treeSet.add("마");
+		
+		for(String s : treeSet) {
+			System.out.println(s);
+		}
+
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package collection.treeset;
+
+public class ComparatorTest {
+
+	public static void main(String[] args) {
+
+		TreeSet<String> treeSet = new TreeSet<String>();
+
+
+	}
+
+}

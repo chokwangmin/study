@@ -1,0 +1,5 @@
+package excetion;
+
+public class IDFormatException {
+
+}

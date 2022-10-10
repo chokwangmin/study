@@ -1,0 +1,39 @@
+/* 기본선택자 */
+* { 
+    color: red;
+}
+
+/* 태그 선택자 */
+li{
+    color: orange;
+}
+
+/* 클래스 */
+.blue{
+    color: blue;
+}
+
+/* 아이디 선택자 */
+#blue{
+    color:red;
+}
+
+/* 복합 일치 선택자 */
+span.blue{
+    color: aqua;
+}
+/* 복합 자식 선택자 */
+ul > .orange {
+    color:darkgreen;
+}
+
+/*복합 하위(후손선택자)  */
+div .orange{
+    color: greenyellow;
+}
+
+/* 복합 인접 형재 선택자 */
+
+.orange + li {
+    color: forestgreen;
+}
